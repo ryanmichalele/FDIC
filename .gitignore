@@ -1,0 +1,9 @@
+node_modules/
+*.log
+crawl*.log
+mirror.log
+server.*.log
+*.zip.__part
+*.tmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+{
+  "name": "fdic-local-mirror",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline mirror of www.fdic.gov with a local URL-rewriting server",
+  "type": "module",
+  "scripts": {
+    "mirror": "node mirror.mjs",
+    "serve": "node server.js",
+    "verify": "node verify.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "playwright-core": "^1.64.1"
+  }
+}
